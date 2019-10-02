@@ -8,7 +8,8 @@ Write Algorithm in any language and contribute to HacktoberFest
 * `B` [Factorial](C++/factorial.cpp)
 ## JavaScript 
 * `B` [Factorial](javascript/factorial.js)
-
+## C
+* `B` [Commont Element in two Arrays](C/commont_element_in_two_arrays.c)
 
 -----------------
 -----------------
