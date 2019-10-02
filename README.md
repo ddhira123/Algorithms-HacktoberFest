@@ -1,6 +1,16 @@
 # Algorithms-HacktoberFest
 Write Algorithm in any language and contribute to HacktoberFest
 
+# Table of Algorithms 
+
+`B` - Beginner, `A` - Advanced
+## JavaScript 
+* `B` [Factorial](javascript/factorial.js)
+
+
+-----------------
+-----------------
+----------------
 
 ### Get yourself free goodies by just writing an algorithm in your language of choice
 Write a pre existing algo in any language of your choice!
