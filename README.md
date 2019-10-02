@@ -6,10 +6,17 @@ Write Algorithm in any language and contribute to HacktoberFest
 `B` - Beginner, `A` - Advanced
 ## C++
 * `B` [Factorial](C++/factorial.cpp)
+
+## Python 3
+* `B` [Factorial](Python/factorial.py)
+* `A` [interpolation search](C++/interpolation_search.cpp)
+
 ## JavaScript 
 * `B` [Factorial](javascript/factorial.js)
+
 ## C
 * `B` [Commont Element in two Arrays](C/commont_element_in_two_arrays.c)
+
 
 -----------------
 -----------------
