@@ -8,6 +8,7 @@ Write Algorithm in any language and contribute to HacktoberFest
 * `B` [Factorial](C++/factorial.cpp)
 ## JavaScript 
 * `B` [Factorial](javascript/factorial.js)
+* `B` [selectionSort](javascript/selectionSort.js)
 
 
 -----------------
