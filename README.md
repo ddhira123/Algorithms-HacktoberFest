@@ -6,11 +6,12 @@ Write Algorithm in any language and contribute to HacktoberFest
 `B` - Beginner, `A` - Advanced
 ## C++
 * `B` [Factorial](C++/factorial.cpp)
-## JavaScript 
-* `B` [Factorial](javascript/factorial.js)
 * `A` [KMP Algorithm](Cpp/KMP(string-matching-algorithm).cpp)
 * `A` [N-Queen-Problem](Cpp/N-Queen-Problem.cpp)
 * `A` [Tower-of-Hanoi](Cpp/Tower-of-Hanoi.cpp)
+## JavaScript 
+* `B` [Factorial](javascript/factorial.js)
+
 
 -----------------
 -----------------
