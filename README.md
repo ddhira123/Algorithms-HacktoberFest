@@ -6,10 +6,11 @@ Write Algorithm in any language and contribute to HacktoberFest
 `B` - Beginner, `A` - Advanced
 ## C++
 * `B` [Factorial](C++/factorial.cpp)
+* `A` [interpolation search](C++/interpolation_search.cpp)
+
 ## JavaScript 
 * `B` [Factorial](javascript/factorial.js)
-## C++
-* `A` [interpolation search](C++/interpolation_search.cpp)
+
 -----------------
 -----------------
 ----------------
