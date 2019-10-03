@@ -6,6 +6,12 @@ Write Algorithm in any language and contribute to HacktoberFest
 `B` - Beginner, `A` - Advanced
 ## C++
 * `B` [Factorial](C++/factorial.cpp)
+* `A` [KMP Algorithm](C++/KMP(string-matching-algorithm).cpp)
+* `A` [N-Queen-Problem](C++/N-Queen-Problem.cpp)
+* `A` [Tower-of-Hanoi](C++/Tower-of-Hanoi.cpp)
+
+## JavaScript 
+
 * `B` [Heap Sort](C++/heap_sort.cpp)
 
 ## Python 3
