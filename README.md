@@ -15,15 +15,13 @@ Write Algorithm in any language and contribute to HacktoberFest
 * `B` [Heap Sort](C++/heap_sort.cpp)
 * `B` [selectionSort](javascript/selectionSort.js)
 * `B` [Factorial](javascript/factorial.js)
+* `B` [Fibonnaci](javascript/fibonnaci.js)
 
 
 ## Python 3
 * `B` [Factorial](Python/factorial.py)
 * `A` [interpolation search](C++/interpolation_search.cpp)
 
-## JavaScript 
-* `B` [Factorial](javascript/factorial.js)
-* `B` [Fibonnaci](javascript/fibonnaci.js)
 
 ## Java
 * `B` [Factorial](Java/Factorial.java)
