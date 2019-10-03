@@ -13,14 +13,17 @@ Write Algorithm in any language and contribute to HacktoberFest
 ## JavaScript 
 
 * `B` [Heap Sort](C++/heap_sort.cpp)
+* `B` [selectionSort](javascript/selectionSort.js)
+* `B` [Factorial](javascript/factorial.js)
+
 
 ## Python 3
 * `B` [Factorial](Python/factorial.py)
 * `A` [interpolation search](C++/interpolation_search.cpp)
 
-## JavaScript
-* `B` [Factorial](javascript/factorial.js)
-* `B` [selectionSort](javascript/selectionSort.js)
+
+## Java
+* `B` [Factorial](Java/Factorial.java)
 
 ## C
 * `B` [Commont Element in two Arrays](C/commont_element_in_two_arrays.c)
