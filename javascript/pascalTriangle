@@ -1,0 +1,30 @@
+const pascalsTriangle = depth => {
+    let last = 1;
+    let row = ''; //Intialize row
+    for (let i = 1; i < depth; i++) {
+
+        last = 1; //First element of every row is always 1
+        row += last; //Add elements to row string
+
+        for (let j = 1; j <= i; j++) {
+            /*
+              Formula for calculating the jth digit of the ith row.
+              Link: https://www.wikiwand.com/en/Pascal%27s_triangle
+            */
+            let digit = last * ((i + 1 - j) / j);
+
+            //Add digit to the row
+            row += ' ' + digit;
+
+            last = digit;
+        }
+
+        console.log(row);
+        console.log('\n'); //Next row on new line
+        row = ''; //Reset row
+    }
+
+}
+
+
+export default pascalsTriangle;

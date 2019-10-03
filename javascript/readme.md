@@ -88,3 +88,21 @@ arr[] = 64 25 12 22 11
 ## References
 
 [geekforgeeks](https://www.geeksforgeeks.org/selection-sort/)
+
+# Pascal's Triangle  
+
+In mathematics, Pascal's triangle is a triangular array of the binomial coefficients. 
+Each number is the numbers directly above it added together.
+
+```
+1
+1 1
+1 2 1
+1 3 3 1
+1 4 6 4 1
+1 5 10 10 5 1
+```
+
+## References
+
+[Pascal's Triangle](https://www.wikiwand.com/en/Pascal%27s_triangle)
