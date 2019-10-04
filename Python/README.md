@@ -60,3 +60,9 @@ Third Pass:
 ## References
 
 [Geek For Geeks](https://www.geeksforgeeks.org/bubble-sort/)
+
+# Stack
+
+Stack in first in last out algorithms (FILO) that any thing get in first then it will get to out side last when we want to add data to stack we need to append and when we want to get data we need to pop data from stack
+
+[includehelp](https://www.includehelp.com/data-structure-tutorial/stack-using-c-and-cpp-data-structure-tutorial.aspx)

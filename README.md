@@ -21,6 +21,8 @@ Write Algorithm in any language and contribute to HacktoberFest
 ## Python 3
 * `B` [Factorial](Python/factorial.py)
 * `A` [interpolation search](C++/interpolation_search.cpp)
+* `B` [Stack](Python/stack.py)
+* `B` [Bubble](Python/bubblesort.py)
 
 
 ## Java
