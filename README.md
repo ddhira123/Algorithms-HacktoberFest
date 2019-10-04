@@ -42,6 +42,7 @@ Write Algorithm in any language and contribute to HacktoberFest
 
 ## PHP
 - `B` [insertionSort](PHP/insertionSort.php)
+- `B` [Fibonnaci](PHP/fibonnaci.php)
 
 ---
 ---
