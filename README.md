@@ -20,6 +20,7 @@ Write Algorithm in any language and contribute to HacktoberFest
 - `B` [Factorial](javascript/factorial.js)
 - `B` [Fibonnaci](javascript/fibonnaci.js)
 - `B` [quickSort](javascript/quickSort.js)
+- `B` [heapSort](javascript/heapSort.js)
 
 ## Python 3
 
@@ -33,15 +34,17 @@ Write Algorithm in any language and contribute to HacktoberFest
 ## C
 
 - `B` [Commont Element in two Arrays](C/commont_element_in_two_arrays.c)
+- `B` [Selection Sort](C/SelectionSort.c)
 
 ## Dart
 
 - `B` [Hello World](Dart/hello_world.dart)
 
----
+## PHP
+- `B` [insertionSort](PHP/insertionSort.php)
 
 ---
-
+---
 ---
 
 ### Get yourself free goodies by just writing an algorithm in your language of choice
