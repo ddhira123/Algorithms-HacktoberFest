@@ -19,6 +19,7 @@ Write Algorithm in any language and contribute to HacktoberFest
 - `B` [selectionSort](javascript/selectionSort.js)
 - `B` [Factorial](javascript/factorial.js)
 - `B` [Fibonnaci](javascript/fibonnaci.js)
+- `B` [quickSort](javascript/quickSort.js)
 - `B` [heapSort](javascript/heapSort.js)
 
 ## Python 3
@@ -41,7 +42,6 @@ Write Algorithm in any language and contribute to HacktoberFest
 
 - `B` [Hello World](Dart/hello_world.dart)
 
-
 ## PHP
 - `B` [insertionSort](PHP/insertionSort.php)
 - `B` [Fibonnaci](PHP/fibonnaci.php)
@@ -49,7 +49,6 @@ Write Algorithm in any language and contribute to HacktoberFest
 ---
 ---
 ---
-
 
 ### Get yourself free goodies by just writing an algorithm in your language of choice
 
@@ -87,4 +86,4 @@ by checking our `Help Wanted` issues and creating [pull requests](https://github
 If you liked working on this project, please share this project as much
 as you can and star this project to help as many people in opensource as you can.
 
-:tada: :confetti\*ball: :smiley: **\*Happy Contributing**\_ :smiley: :confetti_ball: :tada:
+:tada: :confetti*ball: :smiley: ***Happy Contributing**\_ :smiley: :confetti_ball: :tada:
