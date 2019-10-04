@@ -33,16 +33,20 @@ Write Algorithm in any language and contribute to HacktoberFest
 ## C
 
 - `B` [Commont Element in two Arrays](C/commont_element_in_two_arrays.c)
+- `B` [Selection Sort](C/SelectionSort.c)
 
 ## Dart
 
 - `B` [Hello World](Dart/hello_world.dart)
 
----
+
+## PHP
+- `B` [insertionSort](PHP/insertionSort.php)
 
 ---
-
 ---
+---
+
 
 ### Get yourself free goodies by just writing an algorithm in your language of choice
 
@@ -80,4 +84,4 @@ by checking our `Help Wanted` issues and creating [pull requests](https://github
 If you liked working on this project, please share this project as much
 as you can and star this project to help as many people in opensource as you can.
 
-:tada: :confetti*ball: :smiley: ***Happy Contributing**\_ :smiley: :confetti_ball: :tada:
+:tada: :confetti\*ball: :smiley: **\*Happy Contributing**\_ :smiley: :confetti_ball: :tada:
