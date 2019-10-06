@@ -31,7 +31,13 @@ Write Algorithm in any language and contribute to HacktoberFest
 
 ## Java
 
-- `B` [Factorial](Java/Factorial.java)
+- `B` [Factorial](java/Factorial.java)
+- 'B' [BubbleSort] (java/Sorting/BubbleSort.java)
+- 'B' [InsertionSort] (java/Sorting/InsertionSort.java)
+- 'B' [SelectionSort] (java/Sorting/SelectionSort.java)
+- 'B' [Tree] (java/Tree/node.java)
+- 'B' [Binary Tree] (java/Tree/BinarayTree.java)
+- 'B' [Binary Tree Traversal] (java/Tree/Binary Tree Traversal.java)
 
 ## C
 
