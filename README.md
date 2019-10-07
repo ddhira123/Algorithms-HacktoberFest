@@ -38,7 +38,7 @@ Write Algorithm in any language and contribute to HacktoberFest
 - `B` [Fibonacci (Recursive)](C/fibonacci_recursive.c)
 - `B` [Commont Element in two Arrays](C/commont_element_in_two_arrays.c)
 - `B` [Selection Sort](C/SelectionSort.c)
-
+- `B` [Count Sort](C/count_sort.c)
 
 ## Dart
 
