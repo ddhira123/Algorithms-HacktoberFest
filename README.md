@@ -48,6 +48,10 @@ Write Algorithm in any language and contribute to HacktoberFest
 - `B` [insertionSort](PHP/insertionSort.php)
 - `B` [Fibonnaci](PHP/fibonnaci.php)
 
+## COBOL
+- `B` [Simple addition](COBOL/simpleAddition)
+
+
 ---
 ---
 ---
