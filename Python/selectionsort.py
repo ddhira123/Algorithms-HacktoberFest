@@ -1,6 +1,3 @@
-import random
-
-
 def sort(num):
     for i in range(0, len(nums)):
         lowest_value = i
