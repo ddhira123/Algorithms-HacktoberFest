@@ -32,7 +32,7 @@ Write Algorithm in any language and contribute to HacktoberFest
 ## Java
 
 - `B` [Factorial](Java/Factorial.java)
-
+- `A` [KMP Algorithm](Java/KMP.java)
 ## C
 
 - `B` [Fibonacci (Recursive)](C/fibonacci_recursive.c)
@@ -81,7 +81,7 @@ You can take a look to the [Programming Language List](https://en.wikipedia.org/
 
 ### 4. Ready, Steady, Go... :turtle: :rabbit2:
 
-Once you have completed these steps, you are ready to start contributing
+Once you have completed these steps, you https://github.com/Mousamkr1/Algorithms-HacktoberFest.gitare ready to start contributing
 by checking our `Help Wanted` issues and creating [pull requests](https://github.com/piyush97/Algorithms-HacktoberFest/pulls).
 
 ### 5. Give this Project a Star :star:
