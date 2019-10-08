@@ -32,6 +32,7 @@ Write Algorithm in any language and contribute to HacktoberFest
 ## Java
 
 - `B` [Factorial](Java/Factorial.java)
+- `A` [TopKFrequentElements](Java/TopKFrequentElements.java)
 - `A` [KMP Algorithm](Java/KMP.java)
 ## C
 
