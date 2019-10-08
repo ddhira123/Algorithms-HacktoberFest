@@ -33,13 +33,15 @@ Write Algorithm in any language and contribute to HacktoberFest
 
 - `B` [Factorial](Java/Factorial.java)
 - `A` [TopKFrequentElements](Java/TopKFrequentElements.java)
-
+- `A` [KMP Algorithm](Java/KMP.java)
 ## C
 
 - `B` [Fibonacci (Recursive)](C/fibonacci_recursive.c)
 - `B` [Commont Element in two Arrays](C/commont_element_in_two_arrays.c)
 - `B` [Selection Sort](C/SelectionSort.c)
-
+- `B` [Count Sort](C/count_sort.c)
+- `B` [Insertion Sort](C/insertion_sort.c)
+- `B` [Bubble Sort](C/bubble_sort.c)
 
 ## Dart
 
@@ -81,7 +83,7 @@ You can take a look to the [Programming Language List](https://en.wikipedia.org/
 
 ### 4. Ready, Steady, Go... :turtle: :rabbit2:
 
-Once you have completed these steps, you are ready to start contributing
+Once you have completed these steps, you https://github.com/Mousamkr1/Algorithms-HacktoberFest.gitare ready to start contributing
 by checking our `Help Wanted` issues and creating [pull requests](https://github.com/piyush97/Algorithms-HacktoberFest/pulls).
 
 ### 5. Give this Project a Star :star:
@@ -90,3 +92,4 @@ If you liked working on this project, please share this project as much
 as you can and star this project to help as many people in opensource as you can.
 
 :tada: :confetti*ball: :smiley: ***Happy Contributing**\_ :smiley: :confetti_ball: :tada:
+
