@@ -68,3 +68,5 @@ than or equal to `n`. For example:
 | 15    | 1 307 674 368 000           |
 
 [Wikipedia](https://en.wikipedia.org/wiki/Factorial)
+
+N DIGIT FIBONACCI NUMBER: This function returns the number of digits in nth Fibonacci number after ceiling it
