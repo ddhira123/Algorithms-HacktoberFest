@@ -70,6 +70,7 @@ Write Algorithm in any language and contribute to HacktoberFest
 - `B` [Insertion Sort](C/insertion_sort.c)
 - `B` [Bubble Sort](C/bubble_sort.c)
 - `B` [Mountian](C/Mountian.c)
+- `B` [Hello World](C/helloWorld.c)
 
 ## Dart
 
