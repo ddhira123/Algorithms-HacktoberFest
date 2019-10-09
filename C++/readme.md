@@ -121,3 +121,26 @@ Given weights and values of n items, put these items in a knapsack of capacity W
 ```
 [Wikipedia](https://en.wikipedia.org/wiki/Knapsack_problem)
 [GeeksForGeeks](https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10)
+
+
+=======
+
+# Coin Change Problem
+You are given with m coins of different denominations S = {S1, S2, ..., Sm}. You have infinite supply of each type of coin.
+Your task is to find the number of ways in which a total of N cents be generated.
+
+1.Input m
+2.Input the array S.
+3.Input N.
+4.Take an array dp[m+1] and initialise it to 0
+5.dp[0]=1
+6.i=0
+7.Repeat steps 8-12 till i<N
+8.j=S[i]
+9.Repeat steps 10-11 till j<=M
+10.dp[j]=dp[j]+dp[j-S[i]]
+11.j=j+1
+12.i=i+1
+13.Print dp[M]
+
+=======
