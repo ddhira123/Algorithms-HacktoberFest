@@ -29,6 +29,9 @@ Write Algorithm in any language and contribute to HacktoberFest
 - `B` [Stack](Python/stack.py)
 - `B` [Bubble](Python/bubblesort.py)
 - `B` [QuickSort](Python/quicksort.py)
+- `B` [Radomized_QuickSort](Python/randomized_quicksort.py)
+
+
 ## Java
 
 - `B` [Factorial](java/Factorial.java)
