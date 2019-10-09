@@ -15,6 +15,13 @@ Write Algorithm in any language and contribute to HacktoberFest
 - `B` [Palindrome](C++/Palindrome.cpp)
 - `A` [0/1 Knapsack](C++/0-1-Knapsack.cpp)
 - `A` [Huffman Coding](C++/huffman.cpp)
+- `A` [Fenwick_Tree](C++/Fenwick_Tree.cpp)
+- `A` [Trie](C++/Trie.cpp)
+- `B` [BFS](C++/BFS.cpp)
+- `A` [Graph](C++/Graph_Hashmap.cpp)
+- `A` [Lazt_propagation](C++/Lazy_propagation)
+
+
 ## JavaScript
 
 - `B` [Heap Sort](C++/heap_sort.cpp)
