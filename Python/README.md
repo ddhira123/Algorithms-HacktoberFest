@@ -57,9 +57,43 @@ Third Pass:
 ( 1 2 4 5 8 ) –> ( 1 2 4 5 8 )
 ( 1 2 4 5 8 ) –> ( 1 2 4 5 8 )
 
-## References
+# Selection Sort 
 
-[Geek For Geeks](https://www.geeksforgeeks.org/bubble-sort/)
+The selection sort algorithm sorts an array by repeatedly finding the minimum element (considering ascending order) from unsorted part and putting it at the beginning. The algorithm maintains two subarrays in a given array.
+
+1) The subarray which is already sorted.
+2) Remaining subarray which is unsorted.
+
+In every iteration of selection sort, the minimum element (considering ascending order) from the unsorted subarray is picked and moved to the sorted subarray.
+
+# QuickSort
+The QuickSort algorithm applies the divide and conquer paradigm. Here is the three-step divide-and-conquer process for sorting a typical subarrayA[p...r]
+## Divide:
+Partition the array A[p..r] into two (possibly empty) subarrays A[p..q-1] and A[q+1..r] such that each element of A[p..q-1] is less than or equal to A[q], which is , in turn, less than or equal to each element of A[q+1..r]. Compute the index q as part of this partitioning procedure.QuickSort
+## Conquer:
+Sort the two subarrays A[p..q-1] and A[q+1..r] by recursive calls to quicksort.
+## Combine:
+Becouse the subarrays are already sorted, no work is needed to combine them: the entire array A[p..r] is now sorted.
+
+## Worst Case Running Time:
+The worst-case split at every level of recursion in quicksort produces a \theta (n^2) running time. The running time is dominated by the partition procedure.
+
+The
+## References
+Introduction to Algorithms, Third edition
+https://github.com/CodeClub-JU/Introduction-to-Algorithms-CLRS/blob/master/Introduction%20to%20Algorithms%20-%203rd%20Edition.pdf
+
+# Randomized QuickSort
+The randomized version of quicksort is similair to quicksort, except that it adds randomization in order to obtain good expected performance over all inputs. Many regard this version of quicksort as the sorting algorithm of choice
+for large enough inputs.
+Instead of using A[r] as the pivot, we select a random pivot from the subarray A[p...r]
+
+##Expected  Running time:
+The expected running time is O(n lg n), where the recursion tree has a depth of \theta (lg n) with O(n) work at each level.
+
+## References
+Introduction to Algorithms, Third edition
+https://github.com/CodeClub-JU/Introduction-to-Algorithms-CLRS/blob/master/Introduction%20to%20Algorithms%20-%203rd%20Edition.pdf
 
 # Stack
 
@@ -79,3 +113,4 @@ Reminders:
 - after each iteration apply, list[i+1]
 - sublist made after each minimum is added to correct spot
 - go until last sublist has only two, so i is n[-1] or i is <= n-2
+

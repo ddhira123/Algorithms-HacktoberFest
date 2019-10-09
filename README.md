@@ -12,7 +12,9 @@ Write Algorithm in any language and contribute to HacktoberFest
 - `A` [KMP Algorithm](<C++/KMP(string-matching-algorithm).cpp>)
 - `A` [N-Queen-Problem](C++/N-Queen-Problem.cpp)
 - `A` [Tower-of-Hanoi](C++/Tower-of-Hanoi.cpp)
-
+- `B` [Palindrome](C++/Palindrome.cpp)
+- `A` [0/1 Knapsack](C++/0-1-Knapsack.cpp)
+- `A` [Huffman Coding](C++/huffman.cpp)
 ## JavaScript
 
 - `B` [Heap Sort](C++/heap_sort.cpp)
@@ -28,17 +30,39 @@ Write Algorithm in any language and contribute to HacktoberFest
 - `A` [interpolation search](C++/interpolation_search.cpp)
 - `B` [Stack](Python/stack.py)
 - `B` [Bubble](Python/bubblesort.py)
+- `B` [QuickSort](Python/quicksort.py)
+- `B` [Randomized_QuickSort](Python/randomized_quicksort.py)
+
 
 ## Java
 
+- `B` [Factorial](java/Factorial.java)
+- `B` [BubbleSort](java/Sorting/BubbleSort.java)
+- `B` [InsertionSort](java/Sorting/InsertionSort.java)
+- `B` [SelectionSort](java/Sorting/SelectionSort.java)
+- `B` [Tree](java/Tree/node.java)
+- `B` [Binary Tree](java/Tree/BinarayTree.java)
+- `B` [Binary Tree Traversal](java/Tree/BinaryTreeTraversal.java)
 - `B` [Factorial](Java/Factorial.java)
+- `A` [TopKFrequentElements](Java/TopKFrequentElements.java)
+- `A` [KMP Algorithm](Java/KMP.java)
+
+## Bash
+- `B` [Bubble Sort](Bash/bubblesort.sh)
+- `B` [String Reversal](Bash/bubblesort.sh )
+- `B` [Insertion Sort](Bash/insertionsort.sh)
+- `B` [Selection Sort](Bash/selectionsort.sh)
+- `B` [Radix Sort](Bash/radixsort.sh)
 
 ## C
 
 - `B` [Fibonacci (Recursive)](C/fibonacci_recursive.c)
 - `B` [Commont Element in two Arrays](C/commont_element_in_two_arrays.c)
 - `B` [Selection Sort](C/SelectionSort.c)
-
+- `B` [Count Sort](C/count_sort.c)
+- `B` [Insertion Sort](C/insertion_sort.c)
+- `B` [Bubble Sort](C/bubble_sort.c)
+- `B` [Mountian](C/Mountian.c)
 
 ## Dart
 
@@ -47,6 +71,10 @@ Write Algorithm in any language and contribute to HacktoberFest
 ## PHP
 - `B` [insertionSort](PHP/insertionSort.php)
 - `B` [Fibonnaci](PHP/fibonnaci.php)
+
+## COBOL
+- `B` [Simple addition](COBOL/simpleAddition)
+
 
 ---
 ---
@@ -80,7 +108,7 @@ You can take a look to the [Programming Language List](https://en.wikipedia.org/
 
 ### 4. Ready, Steady, Go... :turtle: :rabbit2:
 
-Once you have completed these steps, you are ready to start contributing
+Once you have completed these steps, you https://github.com/Mousamkr1/Algorithms-HacktoberFest.gitare ready to start contributing
 by checking our `Help Wanted` issues and creating [pull requests](https://github.com/piyush97/Algorithms-HacktoberFest/pulls).
 
 ### 5. Give this Project a Star :star:
@@ -89,3 +117,4 @@ If you liked working on this project, please share this project as much
 as you can and star this project to help as many people in opensource as you can.
 
 :tada: :confetti*ball: :smiley: ***Happy Contributing**\_ :smiley: :confetti_ball: :tada:
+

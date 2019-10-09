@@ -68,3 +68,56 @@ than or equal to `n`. For example:
 | 15    | 1 307 674 368 000           |
 
 [Wikipedia](https://en.wikipedia.org/wiki/Factorial)
+
+N DIGIT FIBONACCI NUMBER: This function returns the number of digits in nth Fibonacci number after ceiling it
+
+# Palindrome
+
+
+
+
+
+```
+
+
+1.First get the input for the string;
+
+
+2.Initialise 1 variable with value 0 and another variable with value size-1 
+
+
+3.Then put those variable in for loop and create a temprorary variable and give the value 0
+
+
+4.check for the condition string[j]!=string[i]
+
+
+5.If true update the value of temproray variable 
+
+
+6.At last add the codition if temproray variable==0 then print output as palindrome
+
+
+
+
+
+```
+=======
+
+# Palindrome
+
+1.First get the input for the string;
+2.Initialise 1 variable with value 0 and another variable with value size-1
+3.Then put those variable in for loop and create a temprorary variable and give the value 0
+4.check for the condition string[j]!=string[i]
+5.If true update the value of temproray variable
+6.At last add the codition if temproray variable==0 then print output as palindrome
+
+=======
+
+# 0/1 Knapsack problem
+```
+Given weights and values of n items, put these items in a knapsack of capacity W to get the maximum total value in the knapsack. In other words, given two integer arrays val[0..n-1] and wt[0..n-1] which represent values and weights associated with n items respectively. Also given an integer W which represents knapsack capacity, find out the maximum value subset of val[] such that sum of the weights of this subset is smaller than or equal to W. You cannot break an item, either pick the complete item, or don’t pick it (0-1 property).
+```
+[Wikipedia](https://en.wikipedia.org/wiki/Knapsack_problem)
+[GeeksForGeeks](https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10)
