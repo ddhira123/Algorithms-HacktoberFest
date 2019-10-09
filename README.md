@@ -50,6 +50,7 @@ Write Algorithm in any language and contribute to HacktoberFest
 ## Bash
 - `B` [Bubble Sort](Bash/bubblesort.sh)
 - `B` [String Reversal](Bash/bubblesort.sh )
+- `B` [Insertion Sort](Bash/insertionsort.sh)
 
 ## C
 
