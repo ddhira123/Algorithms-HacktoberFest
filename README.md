@@ -46,6 +46,10 @@ Write Algorithm in any language and contribute to HacktoberFest
 - `B` [Factorial](Java/Factorial.java)
 - `A` [TopKFrequentElements](Java/TopKFrequentElements.java)
 - `A` [KMP Algorithm](Java/KMP.java)
+
+## Bash
+- `B` [Bubble Sort](Bash/bubblesort.sh)
+
 ## C
 
 - `B` [Fibonacci (Recursive)](C/fibonacci_recursive.c)
