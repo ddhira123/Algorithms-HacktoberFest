@@ -48,7 +48,7 @@ Write Algorithm in any language and contribute to HacktoberFest
 - `A` [KMP Algorithm](Java/KMP.java)
 
 ## Bash
-- `B` [Bubble Sort](Bash/bubble%20sort.sh.sh)
+- `B` [Bubble Sort](Bash/bubblesort.sh)
 
 ## C
 
