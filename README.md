@@ -41,7 +41,7 @@ Write Algorithm in any language and contribute to HacktoberFest
 - 'B' [SelectionSort](java/Sorting/SelectionSort.java)
 - 'B' [Tree](java/Tree/node.java)
 - 'B' [Binary Tree](java/Tree/BinarayTree.java)
-- 'B' [Binary Tree Traversal](java/Tree/Binary Tree Traversal.java)
+- 'B' [Binary Tree Traversal](java/Tree/BinaryTreeTraversal.java)
 - `B` [Factorial](Java/Factorial.java)
 - `A` [TopKFrequentElements](Java/TopKFrequentElements.java)
 - `A` [KMP Algorithm](Java/KMP.java)
