@@ -95,6 +95,19 @@ The expected running time is O(n lg n), where the recursion tree has a depth of 
 Introduction to Algorithms, Third edition
 https://github.com/CodeClub-JU/Introduction-to-Algorithms-CLRS/blob/master/Introduction%20to%20Algorithms%20-%203rd%20Edition.pdf
 
+# Insertion Sort
+The Insertion Sort algorithm works by comparing each element to each other element in the array. The best case running time for insertion sort occurs when the array is already sorted. A reverse sorted array results in the worst case.
+
+## Expected  Running time:
+The expected running time is O(n^2).
+
+## Expected  Running time:
+The expected running time is also O(n^2).
+
+## References
+Introduction to Algorithms, Third edition
+https://github.com/CodeClub-JU/Introduction-to-Algorithms-CLRS/blob/master/Introduction%20to%20Algorithms%20-%203rd%20Edition.pdf
+
 # Stack
 
 Stack in first in last out algorithms (FILO) that any thing get in first then it will get to out side last when we want to add data to stack we need to append and when we want to get data we need to pop data from stack
