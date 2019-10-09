@@ -100,3 +100,17 @@ https://github.com/CodeClub-JU/Introduction-to-Algorithms-CLRS/blob/master/Intro
 Stack in first in last out algorithms (FILO) that any thing get in first then it will get to out side last when we want to add data to stack we need to append and when we want to get data we need to pop data from stack
 
 [includehelp](https://www.includehelp.com/data-structure-tutorial/stack-using-c-and-cpp-data-structure-tutorial.aspx)
+
+# Selection Sort
+1. look for the min in current list [i=0..end]
+2. if min out of place, swap
+3. L[i] is in correct position so we repeat on sublist [i+1..end]
+
+Reminders:
+- must keep track of sublist we are searching through
+- if you find min out of place, swap
+- find min in current list
+- after each iteration apply, list[i+1]
+- sublist made after each minimum is added to correct spot
+- go until last sublist has only two, so i is n[-1] or i is <= n-2
+
