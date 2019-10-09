@@ -28,7 +28,7 @@ Write Algorithm in any language and contribute to HacktoberFest
 - `A` [interpolation search](C++/interpolation_search.cpp)
 - `B` [Stack](Python/stack.py)
 - `B` [Bubble](Python/bubblesort.py)
-
+- `B` [QuickSort](Python/quicksort.py)
 ## Java
 
 - `B` [Factorial](java/Factorial.java)
