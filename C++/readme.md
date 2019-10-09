@@ -70,3 +70,35 @@ than or equal to `n`. For example:
 [Wikipedia](https://en.wikipedia.org/wiki/Factorial)
 
 N DIGIT FIBONACCI NUMBER: This function returns the number of digits in nth Fibonacci number after ceiling it
+
+# Palindrome
+
+
+
+
+
+```
+
+
+1.First get the input for the string;
+
+
+2.Initialise 1 variable with value 0 and another variable with value size-1 
+
+
+3.Then put those variable in for loop and create a temprorary variable and give the value 0
+
+
+4.check for the condition string[j]!=string[i]
+
+
+5.If true update the value of temproray variable 
+
+
+6.At last add the codition if temproray variable==0 then print output as palindrome
+
+
+
+
+
+```
