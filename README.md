@@ -14,7 +14,7 @@ Write Algorithm in any language and contribute to HacktoberFest
 - `A` [Tower-of-Hanoi](C++/Tower-of-Hanoi.cpp)
 - `B` [Palindrome](C++/Palindrome.cpp)
 - `A` [0/1 Knapsack](C++/0-1-Knapsack.cpp)
-
+- `A` [Huffman Coding](C++/huffman.cpp)
 ## JavaScript
 
 - `B` [Heap Sort](C++/heap_sort.cpp)
