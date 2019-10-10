@@ -8,7 +8,7 @@ def findMax(n):
 	else :
 		return max((n//2+n//3+n//4),n)
 
-def call():
+def solution():
 
 	n=int(input("Enter number of cases : "))
 	arr=[]
@@ -19,4 +19,4 @@ def call():
 	for item in arr:
 		print(item[0],":",item[1])
 
-call()
+solution()
