@@ -127,3 +127,11 @@ Reminders:
 - sublist made after each minimum is added to correct spot
 - go until last sublist has only two, so i is n[-1] or i is <= n-2
 
+# DFS - Depth First Search
+
+- In Graph Theory, Depth First Search is used to search and identify all connected components in a graph. This is used to identify and implement topological sorting, if a stack based approach (as demonstrated) is used.
+
+1. Make a Matrix [m * n], pass m and n to function
+2. Check for DFS criteria
+3. Visit the element, set element to 0
+4. End when all elements have been searched depth-wise
