@@ -13,7 +13,7 @@ def dfs(matrix, row, col, x, y): #row, column = matrix size. x,y = a[i][j], i<=m
 		dfs(matrix, row, col, x-1, y)
 	if x!=row-1:
 		dfs(matrix, row, col, x+1, y)
-	if y!=-:
+	if y!=0:
 		dfs(matrix, row, col, x, y-1)
 	if y!=col-1:
 		dfs(matrix, row, col, x, y+1)
