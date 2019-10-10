@@ -144,3 +144,6 @@ Your task is to find the number of ways in which a total of N cents be generated
 13.Print dp[M]
 
 =======
+
+# Counting Sort
+An integer sorting algorithm that is in O(n+k) complexity where k is the magnitude of the range of values to be sorted.
