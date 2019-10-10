@@ -22,6 +22,7 @@ Write Algorithm in any language and contribute to HacktoberFest
 - `A` [Lazt_propagation](C++/Lazy_propagation)
 - `B` [Counting_Sort](C++/CountingSort.cpp)
 - `A` [Segment Tree Sum of Range](C++/segment_tree_sum_of_range.cpp)
+- `B` [triangle existance](C++/triangleExistence.cpp)
 
 
 ## JavaScript
