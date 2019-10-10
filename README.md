@@ -20,6 +20,7 @@ Write Algorithm in any language and contribute to HacktoberFest
 - `B` [BFS](C++/BFS.cpp)
 - `A` [Graph](C++/Graph_Hashmap.cpp)
 - `A` [Lazt_propagation](C++/Lazy_propagation)
+- `B` [Counting_Sort](C++/CountingSort.cpp)
 
 
 ## JavaScript
