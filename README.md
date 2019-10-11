@@ -80,6 +80,10 @@ Write Algorithm in any language and contribute to HacktoberFest
 - `B` [Mountian](C/Mountian.c)
 - `B` [Hello World](C/helloWorld.c)
 
+## C#
+
+- 'B' [Triangle check] (C#/Triangle.cs)
+
 ## Dart
 
 - `B` [Hello World](Dart/hello_world.dart)
