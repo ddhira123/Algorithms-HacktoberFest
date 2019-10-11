@@ -43,6 +43,7 @@ Write Algorithm in any language and contribute to HacktoberFest
 - 'B' [Linear Search](Python/multi.py)
 - 'A' [DFS - Matrix Based](Python/python_dfs.py)
 - 'B' [DFS - Adj List Based](Python/dfs_python_adj_list.py)
+- 'B' [Mergesort](Python/merge_sort_python.py)
 
 
 ## Java
