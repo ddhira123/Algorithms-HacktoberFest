@@ -142,3 +142,9 @@ Reminders:
 - Regular linear search is an O(n) operation
 - However, using multiprocessing and pooling modules, we can parallelize it.
 - Hence, this implementation uses 4 parallel processes to search for the element. Can be optimized with exceptions and breakpoints later
+
+# Merge Sort
+
+- O(nlogn) time for execution
+- Uses Greedy Programming, a Divide and Conquer strategy
+- Has higher space complexity than Quicksort, so avoid in space constrained problems
