@@ -135,3 +135,10 @@ Reminders:
 2. Check for DFS criteria
 3. Visit the element, set element to 0
 4. End when all elements have been searched depth-wise
+
+# Linear Search
+
+- Given a sorted array, find the (first) occurrance of a given number in the array. If not found, return -1.
+- Regular linear search is an O(n) operation
+- However, using multiprocessing and pooling modules, we can parallelize it.
+- Hence, this implementation uses 4 parallel processes to search for the element. Can be optimized with exceptions and breakpoints later
