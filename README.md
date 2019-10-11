@@ -82,7 +82,7 @@ Write Algorithm in any language and contribute to HacktoberFest
 
 ## C#
 
-- 'B' [Triangle check] (C#/Triangle.cs)
+- `B` [Triangle](C#/Triangle.cs)
 
 ## Dart
 
