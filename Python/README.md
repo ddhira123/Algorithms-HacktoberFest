@@ -148,3 +148,7 @@ Reminders:
 - O(nlogn) time for execution
 - Uses Greedy Programming, a Divide and Conquer strategy
 - Has higher space complexity than Quicksort, so avoid in space constrained problems
+
+# Collatz conjecture - Total stopping time
+
+- Thie algorithm calculates the total stopping time of the collatz conjecture
