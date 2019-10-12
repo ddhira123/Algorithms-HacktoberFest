@@ -21,8 +21,7 @@ int main()
  
 	printf("Results:\n");
  	
- 	int i;
-	for (i = 1; i <= counter; i++)
+	for (int i = 1; i <= counter; i++)
 	{
 		printf("%d\n", fibonacci(i));
 	}
