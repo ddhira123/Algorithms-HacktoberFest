@@ -96,7 +96,10 @@ Write Algorithm in any language and contribute to HacktoberFest
 ## COBOL
 - `B` [Simple addition](COBOL/simpleAddition)
 
-
+## Haskell
+- `B` [QuickSort](Haskell/quicksort.hs)
+- `B` [Fibonnaci](Haskell/fibonacci.hs)
+- `B` [Factorial](Haskell/factorial.hs)
 ---
 ---
 ---
