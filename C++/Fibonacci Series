@@ -1,0 +1,17 @@
+#include<iostream.h>
+void main()
+{
+int n;
+int a=0;int b=1;
+cout<<a;
+cout<<b;
+s=a+b;
+for(int i=2;i<n;i++)
+{
+cout<<s;
+a=b;
+s=a+b;
+b=s;
+}
+}
+
