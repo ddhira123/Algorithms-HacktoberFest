@@ -80,6 +80,7 @@ Write Algorithm in any language and contribute to HacktoberFest
 - `B` [Bubble Sort](C/bubble_sort.c)
 - `B` [Mountian](C/Mountian.c)
 - `B` [Hello World](C/helloWorld.c)
+- `B` [Palindrome](C/Palindrome.c)
 
 ## C#
 
@@ -141,4 +142,3 @@ If you liked working on this project, please share this project as much
 as you can and star this project to help as many people in opensource as you can.
 
 :tada: :confetti*ball: :smiley: ***Happy Contributing**\_ :smiley: :confetti_ball: :tada:
-
