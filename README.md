@@ -27,7 +27,7 @@ Write Algorithm in any language and contribute to HacktoberFest
 
 
 ## JavaScript
-
+- `B` [Merge Sort](javascript/mergeSort.js)
 - `B` [Heap Sort](C++/heap_sort.cpp)
 - `B` [selectionSort](javascript/selectionSort.js)
 - `B` [Factorial](javascript/factorial.js)
