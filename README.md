@@ -82,6 +82,7 @@ Write Algorithm in any language and contribute to HacktoberFest
 - `B` [Mountian](C/Mountian.c)
 - `B` [Hello World](C/helloWorld.c)
 - `B` [Palindrome](C/Palindrome.c)
+- `B` [GCD](c/gcd.c)
 
 ## C#
 
