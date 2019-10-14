@@ -35,6 +35,8 @@ Write Algorithm in any language and contribute to HacktoberFest
 - `B` [quickSort](javascript/quickSort.js)
 - `B` [heapSort](javascript/heapSort.js)
 - `B` [bubbleSort](javascript/bubbleSort.js)
+- `B` [InorderTraversal](javascript/inorderTraversal.js)
+
 
 ## Python 3
 

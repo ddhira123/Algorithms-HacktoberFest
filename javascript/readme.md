@@ -114,3 +114,22 @@ Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorith
 ## References
 
 [Bubble Sort](https://en.wikipedia.org/wiki/Bubble_sort)
+
+
+# Inorder Traversal
+
+Inorder Traversal is one of Depth First Search (DFS) methods used for Tree Traversals. Following is the implementation of Inorder Traversal of a Binary Tree using Iterative method.
+
+```
+   1
+    \
+     2
+    /
+   3
+
+```
+__Output:__ [1, 3, 2]
+
+## References
+
+[Tree Traversals](https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/)
