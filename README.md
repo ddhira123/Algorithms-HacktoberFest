@@ -105,6 +105,7 @@ Write Algorithm in any language and contribute to HacktoberFest
 - `B` [QuickSort](Haskell/quicksort.hs)
 - `B` [Fibonnaci](Haskell/fibonacci.hs) [Fast Fibonnaci](Haskell/fast-fibonacci.hs)
 - `B` [Factorial](Haskell/factorial.hs)
+- `B` [DFS - Adj List Based](Haskell/dfs.hs)
 - `B` [Merge Sort](Haskell/mergesort.hs)
 ---
 ---
