@@ -8,5 +8,5 @@ A recursive implementation of factorial function in ruby programming language.
 Sorting mechanism written in ruby programming language. Insertion Sort is one of the simplest forms of sorting, similar to that of arranging cards.
 
 ## References
-[Wikipedia](https://en.wikipedia.org/wiki/Factorial)
-[Wikipedia-Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort)
+[Wikipedia](https://en.wikipedia.org/wiki/Factorial) 
+| [Wikipedia-Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort)
