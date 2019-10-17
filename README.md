@@ -24,9 +24,10 @@ Write Algorithm in any language and contribute to HacktoberFest
 - `A` [Segment Tree Sum of Range](C++/segment_tree_sum_of_range.cpp)
 - `B` [triangle existance](C++/triangleExistence.cpp)
 - `A` [AVL Tree](C++/avltree.cpp)
-
+- `A` [Matrix Operations](C++/Matrix_operations.cpp)
 
 ## JavaScript
+
 - `B` [Merge Sort](javascript/mergeSort.js)
 - `B` [Heap Sort](C++/heap_sort.cpp)
 - `B` [selectionSort](javascript/selectionSort.js)
@@ -36,7 +37,6 @@ Write Algorithm in any language and contribute to HacktoberFest
 - `B` [heapSort](javascript/heapSort.js)
 - `B` [bubbleSort](javascript/bubbleSort.js)
 - `B` [InorderTraversal](javascript/inorderTraversal.js)
-
 
 ## Python 3
 
@@ -50,7 +50,6 @@ Write Algorithm in any language and contribute to HacktoberFest
 - 'A' [DFS - Matrix Based](Python/python_dfs.py)
 - 'B' [DFS - Adj List Based](Python/dfs_python_adj_list.py)
 - 'B' [Mergesort](Python/merge_sort_python.py)
-
 
 ## Java
 
@@ -67,8 +66,9 @@ Write Algorithm in any language and contribute to HacktoberFest
 - `B` [FFT](Java/SignalProcessing/FFT.java)
 
 ## Bash
+
 - `B` [Bubble Sort](Bash/bubblesort.sh)
-- `B` [String Reversal](Bash/bubblesort.sh )
+- `B` [String Reversal](Bash/bubblesort.sh)
 - `B` [Insertion Sort](Bash/insertionsort.sh)
 - `B` [Selection Sort](Bash/selectionsort.sh)
 - `B` [Radix Sort](Bash/radixsort.sh)
@@ -86,7 +86,7 @@ Write Algorithm in any language and contribute to HacktoberFest
 - `B` [Palindrome](C/Palindrome.c)
 - `B` [GCD](c/gcd.c)
 
-## C#
+## C
 
 - `B` [Triangle](C#/Triangle.cs)
 
@@ -95,20 +95,26 @@ Write Algorithm in any language and contribute to HacktoberFest
 - `B` [Hello World](Dart/hello_world.dart)
 
 ## PHP
+
 - `B` [insertionSort](PHP/insertionSort.php)
 - `B` [Fibonnaci](PHP/fibonnaci.php)
 
 ## COBOL
+
 - `B` [Simple addition](COBOL/simpleAddition)
 
 ## Haskell
+
 - `B` [QuickSort](Haskell/quicksort.hs)
 - `B` [Fibonnaci](Haskell/fibonacci.hs) [Fast Fibonnaci](Haskell/fast-fibonacci.hs)
 - `B` [Factorial](Haskell/factorial.hs)
 - `B` [DFS - Adj List Based](Haskell/dfs.hs)
 - `B` [Merge Sort](Haskell/mergesort.hs)
+
 ---
+
 ---
+
 ---
 
 ### Get yourself free goodies by just writing an algorithm in your language of choice
@@ -147,4 +153,4 @@ by checking our `Help Wanted` issues and creating [pull requests](https://github
 If you liked working on this project, please share this project as much
 as you can and star this project to help as many people in opensource as you can.
 
-:tada: :confetti*ball: :smiley: ***Happy Contributing**\_ :smiley: :confetti_ball: :tada:
+:tada: :confetti\*ball: :smiley: **\*Happy Contributing**\_ :smiley: :confetti_ball: :tada:
