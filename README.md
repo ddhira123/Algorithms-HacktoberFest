@@ -103,6 +103,11 @@ Write Algorithm in any language and contribute to HacktoberFest
 
 - `B` [Simple addition](COBOL/simpleAddition)
 
+## SOLIDITY
+
+- `B` [Hello World](solidity/hello-world.sol)
+- `B` [Sort Array](solidity/sort-array.sol)
+
 ## Haskell
 
 - `B` [QuickSort](Haskell/quicksort.hs)
