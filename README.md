@@ -85,7 +85,7 @@ Write Algorithm in any language and contribute to HacktoberFest
 - `B` [Hello World](C/helloWorld.c)
 - `B` [Palindrome](C/Palindrome.c)
 - `B` [GCD](c/gcd.c)
-
+- `B` [Binary Seach](C/BinarySearch.c)
 ## C
 
 - `B` [Triangle](C#/Triangle.cs)
