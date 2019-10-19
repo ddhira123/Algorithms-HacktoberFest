@@ -87,6 +87,8 @@ Write Algorithm in any language and contribute to HacktoberFest
 - `B` [Palindrome](C/Palindrome.c)
 - `B` [GCD](c/gcd.c)
 - `B` [Binary Seach](C/BinarySearch.c)
+- `B` [Decimal to Binary](C/decimal_to_binary.c)
+
 ## C
 
 - `B` [Triangle](C#/Triangle.cs)
