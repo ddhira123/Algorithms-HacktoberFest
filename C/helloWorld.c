@@ -1,6 +1,10 @@
 #include <stdio.h>
-int main()
+void printHW()
 {
-   printf("Hello, World!");
-   return 0;
+   printf("HELLO WORLD\n");
+}
+void main() //Since there are only statements to display
+{
+   clrscr();
+   printHW(); //This function prints the statement Hello World
 }
