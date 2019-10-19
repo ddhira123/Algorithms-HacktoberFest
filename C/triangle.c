@@ -1,17 +1,12 @@
 
 #include <stdio.h>
-
-int main()
+void checkTri(int a,int b,int c)
 {
-    int side1, side2, side3;
-    printf("Enter three sides of triangle: ");
-    scanf("%d%d%d", &side1, &side2, &side3);
-
-    if(side1==side2 && side2==side3)
+     if(a==b && b==c)
     {
         printf("Equilateral triangle.");
     }
-    else if(side1==side2 || side1==side3 || side2==side3)
+    else if(a==b || a==c || b==c)
     {
         printf("Isosceles triangle.");
     }
@@ -19,6 +14,12 @@ int main()
     {
         printf("Scalene triangle.");
     }
+void main()
+{
+    int side1, side2, side3;
+    printf("Enter three sides of triangle: ");
+    scanf("%d%d%d", &side1, &side2, &side3);
+    checkTri(side1,side2,side3);
+   
 
-    return 0;
 }
