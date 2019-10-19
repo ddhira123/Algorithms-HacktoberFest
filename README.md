@@ -64,6 +64,7 @@ Write Algorithm in any language and contribute to HacktoberFest
 - `A` [TopKFrequentElements](Java/TopKFrequentElements.java)
 - `A` [KMP Algorithm](Java/KMP.java)
 - `B` [FFT](Java/SignalProcessing/FFT.java)
+- `B` [QuickSort](Java/quickSort.java)
 
 ## Bash
 
