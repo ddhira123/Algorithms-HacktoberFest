@@ -106,6 +106,7 @@ Write Algorithm in any language and contribute to HacktoberFest
 
 - `B` [insertionSort](PHP/insertionSort.php)
 - `B` [Fibonnaci](PHP/fibonnaci.php)
+- `B` [Primes](PHP/primes.php)
 
 ## COBOL
 
