@@ -97,6 +97,7 @@ Write Algorithm in any language and contribute to HacktoberFest
 ## C
 
 - `B` [Triangle](C#/Triangle.cs)
+- `B` [Fibonacci](C#/Fibonacci.cs)
 
 ## Dart
 
