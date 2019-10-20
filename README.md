@@ -25,6 +25,11 @@ Write Algorithm in any language and contribute to HacktoberFest
 - `B` [triangle existance](C++/triangleExistence.cpp)
 - `A` [AVL Tree](C++/avltree.cpp)
 - `A` [Matrix Operations](C++/Matrix_operations.cpp)
+- `A` [Area Of Triangle](C++/areaoftriangle.cpp)
+- `A` [Insertion Sort](C++/insertionSort.cpp)
+- `A` [Josephus Algorithm](C++/josephus.cpp)
+- `A` [Topological Sort Algorithm](C++/topological_sort.cpp)
+- `A` [Interval Scheduling Algorithm](C++/interval_scheduling.cpp)
 
 ## JavaScript
 
