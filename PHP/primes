@@ -1,0 +1,82 @@
+<?php
+function getPrimes($max_number)
+{
+	$primes = [];
+	$is_composite = [];
+	for ($i=4; $i<=$max_number; $i+=2){
+		$is_composite[$i] = true;	
+	}
+	$next_prime = 3;
+	while ($next_prime<=(int)sqrt($max_number)){
+		for ($i=$next_prime*2; $i<=$max_number; $i+=$next_prime){
+			$is_composite[$i] = true;	
+		}
+		$next_prime += 2;
+		while ($next_prime<=$max_number && isset($is_composite[$next_prime])){
+			$next_prime+=2;	
+		}
+	}
+	for ($i=2; $i<=$max_number; $i++){
+			if (!isset($is_composite[$i]))
+				$primes[] = $i;
+		}
+	return $primes;
+}
+
+var_dump(getPrimes(100));
+
+/**
+Will output 
+array(25) {
+  [0]=>
+  int(2)
+  [1]=>
+  int(3)
+  [2]=>
+  int(5)
+  [3]=>
+  int(7)
+  [4]=>
+  int(11)
+  [5]=>
+  int(13)
+  [6]=>
+  int(17)
+  [7]=>
+  int(19)
+  [8]=>
+  int(23)
+  [9]=>
+  int(29)
+  [10]=>
+  int(31)
+  [11]=>
+  int(37)
+  [12]=>
+  int(41)
+  [13]=>
+  int(43)
+  [14]=>
+  int(47)
+  [15]=>
+  int(53)
+  [16]=>
+  int(59)
+  [17]=>
+  int(61)
+  [18]=>
+  int(67)
+  [19]=>
+  int(71)
+  [20]=>
+  int(73)
+  [21]=>
+  int(79)
+  [22]=>
+  int(83)
+  [23]=>
+  int(89)
+  [24]=>
+  int(97)
+}
+*/
