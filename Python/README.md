@@ -152,3 +152,18 @@ Reminders:
 # Collatz conjecture - Total stopping time
 
 - Thie algorithm calculates the total stopping time of the collatz conjecture
+
+# 0-1 Knapsack Problem | DP
+- Given weights and values of n items, put these items in a knapsack of capacity W to get the maximum total value in the knapsack.
+- A simple solution is to consider all subsets of items and calculate the total weight and value of all subsets. Consider the only subsets whose total weight is smaller than W. From all such subsets, pick the maximum value subset.
+
+## 1) Optimal Substructure:
+To consider all subsets of items, there can be two cases for every item: (1) the item is included in the optimal subset, (2) not included in the optimal set.
+Therefore, the maximum value that can be obtained from n items is max of following two values.
+### 1) Maximum value obtained by n-1 items and W weight (excluding nth item).
+### 2) Value of nth item plus maximum value obtained by n-1 items and W minus weight of the nth item (including nth item).
+
+If weight of nth item is greater than W, then the nth item cannot be included and case 1 is the only possibility.
+
+## 2) Overlapping Subproblems
+Following is recursive implementation that simply follows the recursive structure mentioned above.
