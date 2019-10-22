@@ -166,4 +166,4 @@ Therefore, the maximum value that can be obtained from n items is max of followi
 If weight of nth item is greater than W, then the nth item cannot be included and case 1 is the only possibility.
 
 ## 2) Overlapping Subproblems
-Following is recursive implementation that simply follows the recursive structure mentioned above.
+
