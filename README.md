@@ -99,6 +99,10 @@ Write Algorithm in any language and contribute to HacktoberFest
 - `B` [Triangle](C#/Triangle.cs)
 - `B` [Fibonacci](C#/Fibonacci.cs)
 
+## Claire
+
+- `B` [Fibonacci](Claire/Fibonacci.txt)
+
 ## Dart
 
 - `B` [Hello World](Dart/hello_world.dart)
