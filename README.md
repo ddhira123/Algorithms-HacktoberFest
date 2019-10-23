@@ -102,6 +102,7 @@ Write Algorithm in any language and contribute to HacktoberFest
 ## Dart
 
 - `B` [Hello World](Dart/hello_world.dart)
+- `B` [Fibonacci](Dart/fibonacci.dart)
 
 ## PHP
 
