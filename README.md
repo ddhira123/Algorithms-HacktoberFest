@@ -52,10 +52,11 @@ Write Algorithm in any language and contribute to HacktoberFest
 - `B` [Bubble](Python/bubblesort.py)
 - `B` [QuickSort](Python/quicksort.py)
 - `B` [Randomized_QuickSort](Python/randomized_quicksort.py)
-- 'B' [Linear Search](Python/multi.py)
-- 'A' [DFS - Matrix Based](Python/python_dfs.py)
-- 'B' [DFS - Adj List Based](Python/dfs_python_adj_list.py)
-- 'B' [Mergesort](Python/merge_sort_python.py)
+- `B` [Linear Search](Python/multi.py)
+- `A` [DFS - Matrix Based](Python/python_dfs.py)
+- `B` [DFS - Adj List Based](Python/dfs_python_adj_list.py)
+- `B` [Mergesort](Python/merge_sort_python.py)
+- `A` [Heapsort](Python/heapsort.py)
 
 ## Java
 
