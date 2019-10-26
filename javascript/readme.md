@@ -88,3 +88,48 @@ arr[] = 64 25 12 22 11
 ## References
 
 [geekforgeeks](https://www.geeksforgeeks.org/selection-sort/)
+
+# Pascal's Triangle  
+
+In mathematics, Pascal's triangle is a triangular array of the binomial coefficients. 
+Each number is the numbers directly above it added together.
+
+```
+1
+1 1
+1 2 1
+1 3 3 1
+1 4 6 4 1
+1 5 10 10 5 1
+```
+
+## References
+
+[Pascal's Triangle](https://www.wikiwand.com/en/Pascal%27s_triangle)
+
+# Bubble Sort
+
+Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted.
+
+## References
+
+[Bubble Sort](https://en.wikipedia.org/wiki/Bubble_sort)
+
+
+# Inorder Traversal
+
+Inorder Traversal is one of Depth First Search (DFS) methods used for Tree Traversals. Following is the implementation of Inorder Traversal of a Binary Tree using Iterative method.
+
+```
+   1
+    \
+     2
+    /
+   3
+
+```
+__Output:__ [1, 3, 2]
+
+## References
+
+[Tree Traversals](https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/)

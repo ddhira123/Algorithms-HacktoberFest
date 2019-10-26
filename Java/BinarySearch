@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class BinarySearch{
+
+  public satic void main(String []args){
+    Scanner input = new Scanner(Sytem.in);
+    int[] numbers = new int[10];
+    int i = 0;
+    while(i < 10){
+      numbers[i] = input.nextInt();
+      i++;
+    }
+    int wantedNumber = input.nextInt();
+    System.out.println(order(numbers, wantedNumber, 0, numbers.length-1);
+    
+  }
+  
+  private static int order (int[] array, int key, int left, int right){
+    if(left > right){
+      return -1;
+    }
+    
+    int mid = (int) (left+right)/2;
+    
+    if(key == array[mid]){
+      return key;
+    }else{
+      if(key > array[mid]){
+        return order(array, key, mid+1, right);
+      }else{
+        return order(array, key, left, mid-1);
+      }
+    }
+  }
+}

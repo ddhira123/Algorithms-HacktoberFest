@@ -1,0 +1,350 @@
+; Code to play melody with Arduino and buzzer, written in Assembly
+
+.device atmega168 	; what type of processor do we use? don’t change!
+.equ DDRB = 4 		; address of data-direction register; don’t change!
+.equ PORTB = 5 		; address of output port register; don’t change!
+
+.equ C_FULL = 15; 		3830 15 + 5 
+.equ C = 15; 		3830 15 + 5
+.equ C_RANGE = 94;
+
+.equ D_FULL = 13; 		3400 13 + 85	; periods, converted from frequencies, one instruction takes 0.5 microsecond, so
+.equ D = 85; 		3400 13 + 85		; all periods are doubled
+.equ D_RANGE = 88;
+
+.equ E_FULL = 11; 		3038 11 + 233 	; full (255) cycles
+.equ E = 233; 		3038 11 + 233 		; rest after full cycles
+.equ E_RANGE = 99;						; range of tone 
+
+.equ F_FULL = 11; 		2862 11 + 59	tones with corresponding names
+.equ F = 59; 		2862 11 + 59		tones with corresponding names
+.equ F_RANGE = 104;
+
+.equ G_FULL = 10; 		2550 10 + 0 
+.equ G = 0; 		2550 10 + 0 
+.equ G_RANGE = 117;
+
+.equ A_FULL = 8; 		2272 8 + 232
+.equ A = 232; 		2272 8 + 232
+.equ A_RANGE = 132;
+
+.equ B_FULL = 7; 		2028 7 + 243
+.equ B = 243; 		2028 7 + 243
+.equ B_RANGE = 148;
+
+.equ C2_FULL = 7;		1912 7 + 127
+.equ C2 = 127;		1912 7 + 127
+.equ C2_RANGE = 120;
+
+
+.equ FULL = 255;
+
+
+;-----------------------------------------------------------------------------------
+
+again:
+	ldi R16, $FF	; register with value to turn on
+	ldi R17, 0		; register with value to turn off
+	ldi R21, 0		; register with tone Full
+	ldi R22, 0		; register with tone Rest
+	ldi R29, FULL 	; register with full value
+	ldi R30, 5		; duration of note
+	ldi R28, 100	; tone value
+	
+	
+	out DDRB, R16	; preparing output
+	call Melody		; jumps to melody, which is supposed to be played
+	
+	Tone:
+		mov R25, R28;
+	
+		Duration:	;	Collection of delays 
+			ldi R23,0;
+			out PORTB, R16		;switching on
+			call Delay
+			
+			out PORTB, R17;
+			call Delay
+		dec R25;
+		brne Duration;
+		ret
+		
+	Note:				; note to be played
+		call Tone		; played multiple times, as states the value of R26
+		dec R26;
+		brne Note;
+		ret
+		
+	Pause:				; pause between notes
+		call Delay;
+		dec R19;
+		brne Pause;
+		ret;
+	
+	Melody:				; melody to be played - It's supposed to be My heart Goes on by Celine Dion 
+	
+		ldi R21, F_FULL			; sets up the register 21 with F_FULL value
+		ldi R22, F				; sets up register 22 with rest of period value
+		ldi R28, F_RANGE		;
+		ldi R30, 4				; length of tone 
+		mov R26, R30			; send value to register 26
+		call Note				; excetute note 
+		
+		ldi R21, G_FULL	;
+		ldi R22, G;
+		ldi R28, G_RANGE		;
+		ldi R30, 4;
+		mov R26, R30;
+		call Note; 
+		
+		ldi R21, A_FULL	;
+		ldi R22, A;
+		ldi R28, A_RANGE		;
+		ldi R30, 10;
+		mov R26, R30;
+		call Note; 
+		
+		ldi R21, G_FULL	;
+		ldi R22, G;
+		ldi R28, G_RANGE		;
+		ldi R30, 5;
+		mov R26, R30;
+		call Note; 
+		
+		ldi R21, A_FULL	;
+		ldi R22, A;
+		ldi R28, A_RANGE		;
+		ldi R30, 5;
+		mov R26, R30;
+		call Note; 
+		
+		ldi R21, G_FULL	;
+		ldi R22, G;
+		ldi R28, G_RANGE		;
+		ldi R30, 9;
+		mov R26, R30;
+		call Note;
+		;;;;
+		
+		ldi R21, F_FULL	;
+		ldi R22, F;
+		ldi R28, F_RANGE		;
+		ldi R30, 3;
+		mov R26, R30;
+		call Note; 
+		
+		ldi R21, G_FULL	;
+		ldi R22, G;
+		ldi R28, G_RANGE		;
+		ldi R30, 3;
+		mov R26, R30;
+		call Note;
+		
+		ldi R21, C_FULL	;
+		ldi R22, C;
+		ldi R28, C_RANGE		;
+		ldi R30, 12;
+		mov R26, R30;
+		call Note; 
+		
+		;;;;;;;;;;;;;;
+		
+		ldi R21, C_FULL	;
+		ldi R22, C;
+		ldi R28, C_RANGE		;
+		ldi R30, 3;
+		mov R26, R30;
+		call Note; 
+		
+		ldi R21, A_FULL	;
+		ldi R22, A;
+		ldi R28, A_RANGE		;
+		ldi R30, 9;
+		mov R26, R30;
+		call Note; 
+		
+		ldi R21, A_FULL	;
+		ldi R22, A;
+		ldi R28, A_RANGE		;
+		ldi R30, 3;
+		mov R26, R30;
+		call Note; 
+		
+		ldi R21, F_FULL	;
+		ldi R22, F;
+		ldi R28, F_RANGE		;
+		ldi R30, 3;
+		mov R26, R30;
+		call Note; 
+		
+		ldi R21, D_FULL	;
+		ldi R22, D;
+		ldi R28, D_RANGE		;
+		ldi R30, 5;
+		mov R26, R30;
+		call Note; 
+		
+		ldi R21, A_FULL	;
+		ldi R22, A;
+		ldi R28, A_RANGE		;
+		ldi R30, 3;
+		mov R26, R30;
+		call Note; 
+		
+		ldi R21, C_FULL	;
+		ldi R22, C;
+		ldi R28, C_RANGE		;
+		ldi R30, 8;
+		mov R26, R30;
+		call Note; 
+		
+		;;;;;;;;;;;;;;;;;;;;;;;;
+		
+		call Pause;
+		call Pause;
+		call Pause;
+		call Pause;
+		call Pause;
+		call Pause;
+		call Pause;
+		
+		
+		ldi R21, F_FULL	;
+		ldi R22, F;
+		ldi R28, F_RANGE		;
+		ldi R30, 4;
+		mov R26, R30;
+		call Note; 
+		
+		ldi R21, G_FULL	;
+		ldi R22, G;
+		ldi R28, G_RANGE		;
+		ldi R30, 4;
+		mov R26, R30;
+		call Note; 
+		
+		ldi R21, A_FULL	;
+		ldi R22, A;
+		ldi R28, A_RANGE		;
+		ldi R30, 10;
+		mov R26, R30;
+		call Note; 
+		
+		ldi R21, G_FULL	;
+		ldi R22, G;
+		ldi R28, G_RANGE		;
+		ldi R30, 3;
+		mov R26, R30;
+		call Note; 
+		
+		ldi R21, A_FULL	;
+		ldi R22, A;
+		ldi R28, A_RANGE		;
+		ldi R30, 3;
+		mov R26, R30;
+		call Note; 
+		
+		ldi R21, G_FULL	;
+		ldi R22, G;
+		ldi R28, G_RANGE		;
+		ldi R30, 7;
+		mov R26, R30;
+		call Note;
+		;;;;
+		
+		ldi R21, F_FULL	;
+		ldi R22, F;
+		ldi R28, F_RANGE		;
+		ldi R30, 3;
+		mov R26, R30;
+		call Note; 
+		
+		ldi R21, G_FULL	;
+		ldi R22, G;
+		ldi R28, G_RANGE		;
+		ldi R30, 3;
+		mov R26, R30;
+		call Note;
+		
+		ldi R21, C_FULL	;
+		ldi R22, C;
+		ldi R28, C_RANGE		;
+		ldi R30, 12;
+		mov R26, R30;
+		call Note; 
+		
+		;;;;;;;;;;;;;;
+		
+		ldi R21, C_FULL	;
+		ldi R22, C;
+		ldi R28, C_RANGE		;
+		ldi R30, 3;
+		mov R26, R30;
+		call Note; 
+		
+		ldi R21, A_FULL	;
+		ldi R22, A;
+		ldi R28, A_RANGE		;
+		ldi R30, 9;
+		mov R26, R30;
+		call Note; 
+		
+		ldi R21, A_FULL	;
+		ldi R22, A;
+		ldi R28, A_RANGE		;
+		ldi R30, 3;
+		mov R26, R30;
+		call Note; 
+		
+		ldi R21, F_FULL	;
+		ldi R22, F;
+		ldi R28, F_RANGE		;
+		ldi R30, 3;
+		mov R26, R30;
+		call Note; 
+		
+		ldi R21, D_FULL	;
+		ldi R22, D;
+		ldi R28, D_RANGE		;
+		ldi R30, 8;
+		mov R26, R30;
+		call Note; 
+		
+		ldi R21, A_FULL	;
+		ldi R22, A;
+		ldi R28, A_RANGE		;
+		ldi R30, 3;
+		mov R26, R30;
+		call Note; 
+		
+		ldi R21, C_FULL	;
+		ldi R22, C;
+		ldi R28, C_RANGE		;
+		ldi R30, 12;
+		mov R26, R30;
+		call Note; 
+		
+		;;;;;;;;;;;;;;;;;;;;;;;;
+		
+		
+		call end
+		
+	Delay:
+		mov R23, R21
+		Loop:
+			mov R18, R29;
+			OneLoop:		; loop inside the loop ;D to delay switching off or on 
+				dec R18;
+				brne OneLoop;
+			dec R23;
+			brne Loop;
+			
+		RestLoop:
+			dec R22;
+			brne RestLoop;
+			ret
+		
+	End:
+;-----------------------------------------------------------------------------------
+
+.include "rs232link.inc";
