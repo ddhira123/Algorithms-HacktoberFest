@@ -1,19 +1,7 @@
-# Sieve of Eratosthenes
+<<<<<<< HEAD
+=======
 
-The Greek mathematician Eratosthenes (3rd-century B.C.E) designed a quick way to find all the prime numbers. It’s a process called the Sieve of Eratosthenes. 
-
-The idea is to find numbers in the table that are multiples of a number and therefore composite, to discard them as prime. The numbers that are left will be prime numbers.
-
-The Sieve of Eratosthenes stops when the square of the number we are testing is greater than the last number on the grid.
-
-We find upto square root of given number 'n'.
-
-
-## References
-
-https://www.smartickmethod.com/blog/math/operations-and-algebraic-thinking/divisibility/prime-numbers-sieve-eratosthenes/
-
-
+>>>>>>> ba5d8735023417f8abba2d1d401e0ca8a0cd3565
 # Factorial
 
 
