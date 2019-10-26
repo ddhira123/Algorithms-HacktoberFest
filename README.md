@@ -45,9 +45,9 @@ Write Algorithm in any language and contribute to HacktoberFest
 - `B` [CeasarsCypher](javascript/ceasarscypher.js)
 
 ## Python 3
-
+- `A` [Sieve of Eratosthenes](Python/Sieve%20Eratosthenes.py)
+- `B` [Linked List](Python/Linked%20List.py)
 - `B` [Factorial](Python/factorial.py)
-- `B` [Sieve Eratosthenes](Python/Sieve%20Eratosthenes.py)
 - `A` [interpolation search](C++/interpolation_search.cpp)
 - `B` [Stack](Python/stack.py)
 - `B` [Bubble](Python/bubblesort.py)
