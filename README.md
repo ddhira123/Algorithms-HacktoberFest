@@ -96,6 +96,7 @@ Write Algorithm in any language and contribute to HacktoberFest
 - `B` [GCD](c/gcd.c)
 - `B` [Binary Seach](C/BinarySearch.c)
 - `B` [Decimal to Binary](C/decimal_to_binary.c)
+- `B` [Parallel PI calculation](C/parallelPI.c)
 
 ## C
 
