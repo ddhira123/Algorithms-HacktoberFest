@@ -43,8 +43,10 @@ Write Algorithm in any language and contribute to HacktoberFest
 - `B` [bubbleSort](javascript/bubbleSort.js)
 - `B` [InorderTraversal](javascript/inorderTraversal.js)
 - `B` [CeasarsCypher](javascript/ceasarscypher.js)
+- `B` [Counting Sort](javascript/countingSort.js)
 
 ## Python 3
+
 - `A` [Sieve of Eratosthenes](Python/Sieve%20Eratosthenes.py)
 - `B` [Linked List](Python/Linked%20List.py)
 - `B` [Factorial](Python/factorial.py)
@@ -112,8 +114,7 @@ Write Algorithm in any language and contribute to HacktoberFest
 
 - `B` [Hello World](Dart/hello_world.dart)
 - `B` [Fibonacci](Dart/fibonacci.dart)
-- `B` [Linkedlist] (Dart/Linkedlist.dart) 
-
+- `B` [Linkedlist](Dart/Linkedlist.dart)
 
 ## PHP
 
