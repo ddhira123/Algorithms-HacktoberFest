@@ -66,7 +66,7 @@ Write Algorithm in any language and contribute to HacktoberFest
 - `B` [InsertionSort](java/Sorting/InsertionSort.java)
 - `B` [SelectionSort](java/Sorting/SelectionSort.java)
 - `B` [Tree](java/Tree/node.java)
-- `B` [FizzBuzz](java/FizzBuzz.java)
+- `B` [FizzBuzz](Java/FizzBuzz.java)
 - `B` [Binary Tree](java/Tree/BinarayTree.java)
 - `B` [Binary Tree Traversal](java/Tree/BinaryTreeTraversal.java)
 - `B` [Factorial](Java/Factorial.java)
