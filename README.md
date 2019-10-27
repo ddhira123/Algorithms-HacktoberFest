@@ -30,6 +30,7 @@ Write Algorithm in any language and contribute to HacktoberFest
 - `A` [Josephus Algorithm](C++/josephus.cpp)
 - `A` [Topological Sort Algorithm](C++/topological_sort.cpp)
 - `A` [Interval Scheduling Algorithm](C++/interval_scheduling.cpp)
+- `A` [Euler's Totient Function](C++/eulersTotient.cpp)
 
 ## JavaScript
 
