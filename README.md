@@ -9,6 +9,9 @@ Write Algorithm in any language and contribute to HacktoberFest
 
 
 -----------------
+## C++
+* `B` [Factorial](C++/factorial.js)
+
 -----------------
 ----------------
 
