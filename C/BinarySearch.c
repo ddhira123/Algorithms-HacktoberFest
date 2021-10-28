@@ -6,7 +6,7 @@ void bsearch(int arr[],int n,int i)
     while(min<=max)
     {
         mid=(min+max)/2;
-        if(arr[mid]>i)
+        if(arr[mid]>i);
         {
             max=mid-1;
         }

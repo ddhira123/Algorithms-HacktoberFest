@@ -1,4 +1,4 @@
-# Algorithms-HacktoberFest
+# Algorithms-HacktoberFesta
 
 Write Algorithm in any language and contribute to HacktoberFest
 
@@ -49,7 +49,7 @@ Write Algorithm in any language and contribute to HacktoberFest
 
 ## Python 3
 
-- `A` [Sieve of Eratosthenes](Python/Sieve%20Eratosthenes.py)
+- `A` [Sieve of Eratosthenes](Python/Sieve%20Eratosthenes.p)
 - `B` [Linked List](Python/Linked%20List.py)
 - `B` [Factorial](Python/factorial.py)
 - `A` [interpolation search](C++/interpolation_search.cpp)
