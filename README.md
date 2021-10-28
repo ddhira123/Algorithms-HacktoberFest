@@ -1,4 +1,4 @@
-# Algorithms-HacktoberFest
+# Algorithms-HacktoberFesta
 
 Write Algorithm in any language and contribute to HacktoberFest
 
