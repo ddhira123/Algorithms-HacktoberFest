@@ -2,7 +2,7 @@
 
 Write Algorithm in any language and contribute to HacktoberFest
 
-# Table of Algorithms
+# Table of Algorithms        
 
 `B` - Beginner, `A` - Advanced
 
